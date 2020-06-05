@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_filter"
+        app:showAsAction="always"
+        android:title="Filter"/>
+    <item
+        android:id="@+id/action_day_visits"
+        android:title="Today's Visits"
+        >
+    </item>
+    <item
+        android:id="@+id/action_nextday_visits"
+        android:title="Tomorrow's Visits"
+        >
+    </item>
+    <item
+        android:id="@+id/action_week_visits"
+        android:title="Week's Visits">
+    </item>
+    <item
+        android:id="@+id/action_month_visits"
+        android:title="Month's Visits">
+    </item>
+    <item
+        android:id="@+id/action_all_visits"
+        android:title="All Visits">
+    </item>
+    <item
+        android:id="@+id/action_completed_visits"
+        android:title="Completed Visits">
+    </item>
+    <item
+        android:id="@+id/action_past_visits"
+        android:title="Due Visits">
+    </item>
+    <item
+        android:id="@+id/action_adjourned_visits"
+        android:title="Adjourned Visits">
+    </item>
+    <item
+        android:id="@+id/action_recently_visited"
+        android:title="Recently Visited">
+    </item>
+    <item
+        android:id="@+id/action_reload_lovs"
+        android:title="Reload LoVs">
+    </item>
+    <item
+        android:id="@+id/action_logout"
+        android:title="Logout">
+    </item>
+</menu>

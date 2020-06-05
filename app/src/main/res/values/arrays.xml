@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="after_another_visit_yes_no">
+        <item>After another visit?</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="select_visitee_prompt">
+        <item>Visitee Company</item>
+    </string-array>
+    <string-array name="select_upline_prompt">
+        <item>Informed To</item>
+    </string-array>
+    <string-array name="instant_visit_reason">
+        <item>Select reason</item>
+        <item>Customer requested me</item>
+        <item>Customeer has urgency</item>
+    </string-array>
+    <string-array name="from_out_of_office_reason">
+        <item>Select reason</item>
+        <item>It was an early visit</item>
+        <item>Customer location is too away</item>
+    </string-array>
+    <string-array name="visit_cancel_reason">
+        <item>Select reason</item>
+        <item>Customer got an another party</item>
+        <item>Merchandiser left the job</item>
+    </string-array>
+    <string-array name="visit_reschedule_reason">
+        <item>Select reason</item>
+        <item>Visitee personnel are busy</item>
+        <item>Contact merchandiser is not available</item>
+    </string-array>
+    <string-array name="visit_status">
+        <item>Select visit status</item>
+        <item>Visitee completed with sample order</item>
+        <item>Revisit required with sample</item>
+    </string-array>
+    <string-array name="visitee_types">
+        <item>Select Visitee Type</item>
+        <item>Customer</item>
+        <item>Buyer</item>
+    </string-array>
+    <string-array name="visitee_company">
+        <item>Sky Fashion Limited</item>
+        <item>AKH Fashion Ltd.</item>
+        <item>Khayer Knitwear Inc.</item>
+        <item>Khayer Knitwear Inc.</item>
+        <item>Khayer Knitwear Inc.</item>
+        <item>Khayer Knitwear Inc.</item>
+        <item>Khayer Knitwear Inc.</item>
+        <item>Lhayer Knitwear Inc.</item>
+        <item>Mhayer Knitwear Inc.</item>
+        <item>Ohayer Knitwear Inc.</item>
+        <item>Phayer Knitwear Inc.</item>
+    </string-array>
+    <string-array name="visit_detail_names">
+        <item>Address</item>
+        <item>Visiting Date</item>
+        <item>Contact Person</item>
+        <item>Contact No</item>
+        <item>Purpose</item>
+        <item>Team Head Direction</item>
+        <item>Accompaniment HR</item>
+    </string-array>
+    <string-array name="visit_detail_values">
+        <item>H#10, R#12, Sector#7, Uttara, H#10, R#12, Sector#7, Uttara, H#10, R#12, Sector#7, Uttara</item>
+        <item>28th May, 2018</item>
+        <item>Md. Habibur Rahman</item>
+        <item>0172578894, 0185645987</item>
+        <item>Approaching our new Buttons</item>
+        <item>Approach Metal first</item>
+        <item>Mr. Harun</item>
+    </string-array>
+
+    <string-array name="visitee_address">
+        <item>House#10, Road#15, Adam Housing, Hemayetpur, Savar, Dhaka</item>
+        <item>23/7, Gulshan Avenue, Gulshan-2, Dhaka</item>
+        <item>House#45, Bijoy Shorok, Tongi, Gazipur</item>
+        <item>House#45, Bijoy Shorok, Tongi, Gazipur</item>
+        <item>House#45, Bijoy Shorok, Tongi, Gazipur</item>
+        <item>House#45, Bijoy Shorok, Tongi, Gazipur</item>
+        <item>2/7, Gulshan Avenue, Gulshan-2, Dhaka</item>
+        <item>3/7, Gulshan Avenue, Gulshan-2, Dhaka</item>
+        <item>4/7, Gulshan Avenue, Gulshan-2, Dhaka</item>
+        <item>5/7, Gulshan Avenue, Gulshan-2, Dhaka</item>
+    </string-array>
+    <string-array name="visiting_date">
+        <item>28 May,18</item>
+        <item>28 May,18</item>
+        <item>29 May,18</item>
+        <item>29 May,18</item>
+        <item>29 May,18</item>
+        <item>29 May,18</item>
+        <item>29 May,18</item>
+        <item>29 May,18</item>
+        <item>30 May,18</item>
+        <item>31 May,18</item>
+        <item>31 May,18</item>
+    </string-array>
+    <string-array name="COMMON_HEADERS">
+        <item>Client-Service: frontend-client</item>
+        <item>Auth-Key: simplerestapi</item>
+        <item>Content-Type: application/x-www-form-urlencoded</item>
+        <item>Authorization: $1$sgN1RKmx$t.unv9HBSYAGtpH9LPGp51</item>
+        <item>User-ID: 1</item>
+    </string-array>
+</resources>

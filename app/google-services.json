@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "671045337255",
+    "firebase_url": "https://dekko-sales-and-marketing-app.firebaseio.com",
+    "project_id": "dekko-sales-and-marketing-app",
+    "storage_bucket": "dekko-sales-and-marketing-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671045337255:android:dedb96f22878c3c9",
+        "android_client_info": {
+          "package_name": "com.ideaxen.client.visitapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671045337255-tft5u6ni4qr00v8090i2cj9fsh6ulnsr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ideaxen.client.visitapp",
+            "certificate_hash": "b132c4ddb3107d23080120adc712dd8bcd22ff2f"
+          }
+        },
+        {
+          "client_id": "671045337255-uqj1fiunkad5cvm0m8jnfv9otidmgjl9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFiUIzMfO4tpChE9d53ppM0SAKgbBJ7kM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671045337255-uqj1fiunkad5cvm0m8jnfv9otidmgjl9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

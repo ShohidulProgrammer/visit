@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#1f5d01</color>
+    <color name="colorAppBg">#d6d6d6</color>
+
+    <color name="listItemBg">#ababab</color>
+    <color name="lightGray">#efefef</color>
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="colorLabelBorder">#DBDAA6</color>
+    <color name="colorLabelBg">#E8E7B0</color>
+    <color name="colorListItemBg">#f5f5c5</color>
+    <color name="colorListInstantItemBg">#eaea84</color>
+    <color name="colorListAdjournedItemBg">#e4e462</color>
+    <color name="colorProgressLabelBg">#550F03</color>
+
+    <color name="listItemDividerColor">#efefef</color>
+    <color name="listItemTitleColor">#344531</color>
+    <color name="listItemDateColor">@color/listItemTitleColor</color>
+    <color name="listItemAddressColor">@color/listItemTitleColor</color>
+</resources>

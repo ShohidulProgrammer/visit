@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ideaxen.hr.ideasms">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name="com.ideaxen.hr.ideasms.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.ideaxen.hr.ideasms.LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ideaxen.hr.ideasms.DashboardActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ideaxen.hr.ideasms.MyVisitsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ideaxen.hr.ideasms.VisitDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ideaxen.hr.ideasms.MyApprovalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ideaxen.hr.ideasms.ApprovalDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ideaxen.hr.ideasms.ContactPersonActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ideaxen.hr.ideasms.VisitProgressActivity"
+            android:screenOrientation="portrait" />
+
+        <service android:name="com.ideaxen.hr.ideasms.services.LocationTrack" />
+        <service android:name="com.ideaxen.hr.ideasms.services.AutoLocatorService" />
+        <service android:name="com.ideaxen.hr.ideasms.services.OfflineDataService" />
+    </application>
+
+</manifest>

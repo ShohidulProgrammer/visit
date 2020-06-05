@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txtViewItemDetailName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="2"
+        android:background="@drawable/left_rounded_corner"
+        android:gravity="right|center_vertical"
+        android:paddingTop="20dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="20dp"
+        android:singleLine="true"
+        android:text="Name"
+        android:textColor="@color/listItemDateColor"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtViewItemDetailValue"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="5dp"
+        android:layout_weight="3"
+        android:background="@drawable/right_rounded_corner"
+        android:gravity="left|center_vertical"
+        android:paddingRight="5dp"
+        android:singleLine="false"
+        android:text="Value"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="VISIT_STATUS_CANCELED_BEFORE_START">-4</integer>
+    <integer name="VISIT_STATUS_RESCHEDULED_BEFORE_START">-3</integer>
+    <integer name="VISIT_STATUS_CANCELED">-2</integer>
+    <integer name="VISIT_STATUS_RESCHEDULED">-1</integer>
+    <integer name="VISIT_STATUS_NOT_STARTED">0</integer>
+    <integer name="VISIT_STATUS_STARTED_FROM_OFFICE">1</integer>
+    <integer name="VISIT_STATUS_STARTED_FROM_OTHER">2</integer>
+    <integer name="VISIT_STATUS_REACHED_CUSTOMER">3</integer>
+    <integer name="VISIT_STATUS_ADJOURNED">4</integer>
+    <integer name="VISIT_STATUS_FINISHED">5</integer>
+    <integer name="VISIT_STATUS_RESUME">6</integer>
+
+    <integer name="ACTION_VISIT_CONFIRM_FROM_OFFICE">1</integer>
+    <integer name="ACTION_VISIT_CONFIRM_FROM_OTHER">2</integer>
+    <integer name="ACTION_VISIT_RESCHEDULE">3</integer>
+    <integer name="ACTION_VISIT_CANCEL">4</integer>
+    <integer name="ACTION_VISIT_ADJOURN">5</integer>
+    <integer name="ACTION_RESUME_VISIT">6</integer>
+    <integer name="ACTION_VISIT_CONFIRM_AFTER_ANOTHER">7</integer>
+
+    <string name="FILTER_CUSTOM_VISITS">0</string>
+    <string name="FILTER_TODAY_VISITS">1</string>
+    <string name="FILTER_NEXT_DAY_VISITS">11</string>
+    <string name="FILTER_WEEKS_VISITS">2</string>
+    <string name="FILTER_MONTHS_VISITS">3</string>
+    <string name="FILTER_PAST_VISITS">4</string>
+    <string name="FILTER_ALL_VISITS">5</string>
+    <string name="FILTER_INSTANT_VISITS">10</string>
+    <string name="FILTER_RECENTLY_VISITED">6</string>
+    <string name="FILTER_ADJOURNED_VISITS">7</string>
+    <string name="FILTER_APPROVED_VISITS">8</string>
+    <string name="FILTER_DECLINED_VISITS">9</string>
+
+    <string name="FILTER_CANCELED_VISITS">15</string>
+    <string name="FILTER_COMPLETED_VISITS">16</string>
+    <string name="FILTER_MISSED_WEEK_VISITS">17</string>
+    <string name="FILTER_MISSED_MONTH_VISITS">18</string>
+    <string name="FILTER_PENDING_VISITS">19</string>
+
+
+    <string name="text_started_visit_from_office">Office</string>
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_new_instant_visit"
+        app:showAsAction="always"
+        android:title="+Instant Visit"/>
+    <item
+        android:id="@+id/action_visit_list"
+        android:title="Visit List"/>
+    <item
+        android:id="@+id/action_customer_contacts"
+        android:title="Customer Contact List"/>
+    <item
+        android:id="@+id/action_customer_address"
+        android:title="Customer Address Update"/>
+    <item
+        android:id="@+id/action_logout"
+        android:title="Logout">
+    </item>
+</menu>

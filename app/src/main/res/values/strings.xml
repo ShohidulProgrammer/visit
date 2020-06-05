@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Al Taswiq</string>
+    <string name="error_invalid_password">Invalid Password!</string>
+    <string name="error_field_required">This Field is Required!</string>
+    <string name="login_title">Login</string>
+
+    <string name="submit_and_start">Submit and Start</string>
+
+    <string name="todays_visit_title">Today\'s Visit Plans</string>
+    <string name="nextdays_visit_title">Tomorrow\'s Visit Plans</string>
+    <string name="weeks_visit_title">Week\'s Visit Plans</string>
+    <string name="months_visit_title">Month\'s Visit Plans</string>
+    <string name="all_visit_title">Visit Plans</string>
+    <string name="all_pending_visit_title">All Pending Visits</string>
+    <string name="instant_visit_title">Instant Visit Plans</string>
+    <string name="pending_instant_visit_title">Pending Instant Visits</string>
+    <string name="approved_visit_title">Approved Visit Plans</string>
+    <string name="declined_visit_title">Declined Visit Plans</string>
+    <string name="past_visit_title">Due Visit Plans</string>
+    <string name="recent_visit_title">Recently Visited Plans</string>
+    <string name="adjourned_visit_title">Adjourned Visits</string>
+    <string name="custom_filter_visit_title">Plans from </string>
+</resources>

@@ -1,0 +1,103 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="android:listViewStyle">@style/ListViewStyle.Light</item>-->
+        <!--<item name="android:background">@color/colorAppBg</item>-->
+        <item name="colorControlHighlight">#d50000</item>
+        <item name="buttonStyle">@style/AppTheme.DefaultButton</item>
+        <item name="android:colorButtonNormal">@color/colorPrimary</item>
+    </style>
+    <style name="AppTheme.DefaultButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:colorButtonNormal">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    <!--<style name="ListViewStyle.Light" parent="@android:style/Widget.ListView">-->
+        <!--&lt;!&ndash;<item name="android:colorBackground">@color/listItemBg</item>&ndash;&gt;-->
+        <!--<item name="android:divider">@color/listItemDividerColor</item>-->
+        <!--<item name="android:dividerHeight">1dp</item>-->
+        <!--<item name="android:listSelector">@drawable/ic_launcher_foreground</item>-->
+        <!--<item name="android:drawSelectorOnTop">false</item>-->
+        <!--<item name="android:cacheColorHint">#00000000</item>-->
+    <!--</style>-->
+
+    <style name="ListViewItemStyle.Light" parent="@android:style/Widget.ListView">
+        <!--<item name="android:textColor">#eeeeee</item>-->
+    </style>
+    <!-- TextView style on Visit Progress Activities -->
+    <style name="TextViewVisitProgressMilestone" parent="@android:style/TextAppearance.DeviceDefault">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <!--<item name="android:typeface">monospace</item>-->
+        <!--<item name="android:background">#f0f0f0</item>-->
+        <!--<item name="android:textStyle">italic</item>-->
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="TextViewVisitProgressMilestone.Label">
+        <item name="android:background">@drawable/rounded_corner_red_bg</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <!--<item name="android:textStyle">bold</item>-->
+    </style>
+    <style name="TextViewVisitProgressMilestone.LabelTitle">
+        <item name="android:background">@drawable/rounded_corner_green_bg</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextViewVisitProgressMilestone.LabelRound">
+        <item name="android:background">@drawable/rounded_corner</item>
+        <item name="android:paddingLeft">15dp</item>
+        <!--<item name="android:textStyle">bold</item>-->
+    </style>
+
+    <style name="TextViewVisitProgressMilestone.Value">
+        <item name="android:background">@drawable/rounded_corner</item>
+        <item name="android:paddingRight">15dp</item>
+        <!--<item name="android:textSize">30sp</item>-->
+    </style>
+
+    <style name="ButtonStyle" parent="@android:style/Widget.DeviceDefault.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="ButtonStyle.Rounded">
+        <item name="android:background">@drawable/rounded_corner</item>
+        <!--<item name="android:paddingLeft">15dp</item>-->
+        <!--<item name="android:textStyle">bold</item>-->
+    </style>
+    <style name="ButtonStyle.SemiRound">
+        <item name="android:background">@drawable/semi_rounded_corner</item>
+        <!--<item name="android:paddingLeft">15dp</item>-->
+        <!--<item name="android:textStyle">bold</item>-->
+    </style>
+
+    <!--ALERT DIALOG THEME-->
+    <style name="IxAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:alertDialogTheme">@style/AlertDialogTheme</item>
+        <item name="alertDialogTheme">@style/AlertDialogTheme</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="buttonBarButtonStyle">@style/DialogButtonStyle</item>
+    </style>
+
+    <style name="DialogButtonStyle" parent="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+</resources>

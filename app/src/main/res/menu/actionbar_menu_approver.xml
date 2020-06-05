@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_filter"
+        app:showAsAction="always"
+        android:title="Filter"/>
+    <item
+        android:id="@+id/action_day_visits"
+        android:title="Today's Pending Visits"
+        >
+    </item>
+    <item
+        android:id="@+id/action_week_visits"
+        android:title="Week's Pending Visits">
+    </item>
+    <item
+        android:id="@+id/action_month_visits"
+        android:title="Month's Pending Visits">
+    </item>
+    <item
+        android:id="@+id/action_all_visits"
+        android:title="All Pending Visits">
+    </item>
+    <item
+        android:id="@+id/action_approved_visits"
+        android:title="Approved Visits">
+    </item>
+    <item
+        android:id="@+id/action_declined_visits"
+        android:title="Declined Visits">
+    </item>
+    <item
+        android:id="@+id/action_adjourned_visits"
+        android:title="Adjourned Visits">
+    </item>
+    <item
+        android:id="@+id/action_logout"
+        android:title="Logout">
+    </item>
+</menu>
